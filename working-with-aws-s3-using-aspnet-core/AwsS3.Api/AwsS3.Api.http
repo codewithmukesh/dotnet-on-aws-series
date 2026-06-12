@@ -1,0 +1,23 @@
+@host = http://localhost:5234
+@bucket = cwm-dotnet-bucket
+
+### List all buckets
+GET {{host}}/buckets
+
+### Create a bucket
+POST {{host}}/buckets/{{bucket}}
+
+### Delete a bucket (must be empty)
+DELETE {{host}}/buckets/{{bucket}}
+
+### List files in a bucket (with presigned URLs)
+GET {{host}}/buckets/{{bucket}}/files
+
+### List files under a prefix
+GET {{host}}/buckets/{{bucket}}/files?prefix=invoices
+
+### Download a file
+GET {{host}}/buckets/{{bucket}}/files/invoices/sample.pdf
+
+### Delete a file
+DELETE {{host}}/buckets/{{bucket}}/files/invoices/sample.pdf

@@ -11,8 +11,9 @@ Watch the Entire Playlist here - [.NET on AWS Playlist](https://www.youtube.com/
 - Blog Post - https://codewithmukesh.com/blog/aws-credentials-for-dotnet-applications/
 - Youtube Video - https://www.youtube.com/watch?v=oY0-1mj4oCo
 
-## Working with AWS S3 in ASP.NET Core Web API | .NET 7
+## Working with AWS S3 in ASP.NET Core Web API | .NET 10 + AWS SDK V4
 
+- Source Code - [working-with-aws-s3-using-aspnet-core](./working-with-aws-s3-using-aspnet-core/)
 - Blog post - https://codewithmukesh.com/blog/working-with-aws-s3-using-aspnet-core/
 - Youtube Video - https://www.youtube.com/watch?v=2q5jA813ZiI
 
